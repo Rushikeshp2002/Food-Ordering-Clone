@@ -51,19 +51,19 @@ if(!allRestaurants) return null;
       <>
       <div className="w-3/5 py-3 rounded-full flex m-auto align-middle justify-center">
         <input type="text" 
-        className="w-3/6 h-12 rounded-full px-6 text-xl border-2 border-red-700 " 
+        className="w-3/6 h-10 rounded-full px-6 text-lg border-2 border-red-700 " 
         placeholder="Search here" 
         value={searchTxt} 
         onChange={(e) =>{
            setSearchText(e.target.value);
         }}
         />
-        <button className="bg-rose-500 w-36 rounded-full text-xl text-white mx-2 hover:bg-rose-600" onClick={()=>{
+        <button className="bg-rose-500 w-36 rounded-full text-lg text-white mx-2 hover:bg-rose-600" onClick={()=>{
             const info = filterData(searchTxt, allRestaurants);
             setFilteredRestaurants(info);
         } }>Search</button>
       </div>
-      <div className="flex flex-wrap w-fit my-auto mx-10">
+      <div className="inline-flex flex-wrap w-full my-auto mx-10">
       
        {filteredRestaurants?.map((restraunt) => {
           return (
