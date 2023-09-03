@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
+Website's Link:- https://resonant-sunburst-8c3041.netlify.app/<br>
 <h2>Project is Creared using Swiggy's API and to avoid CORS errors please install Allow CORS from chromestore and the api will work just fine😁</h2>
 
 ## Available Scripts
